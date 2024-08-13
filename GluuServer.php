@@ -19,19 +19,19 @@ final class GluuServer extends OAuth2
  * URI base para solicitudes con proveedor
  */
  
- protected $apiBaseUrl = 'https://open.cidla.org/oxauth/restv1/';
+ protected $apiBaseUrl = 'URL/oxauth/restv1/';
 
  /**
  * URI donde el usuario final es redireccionado para realizar el proceso de autenticación
  */
  
- protected $authorizeUrl = 'https://open.cidla.org/oxauth/restv1/authorize';
+ protected $authorizeUrl = 'URL/oxauth/restv1/authorize';
  
  /**
  * URI donde se obteniene o renueva el `Access Token`
  */
  
- protected $accessTokenUrl = 'https://open.cidla.org/oxauth/restv1/token';
+ protected $accessTokenUrl = 'URL/oxauth/restv1/token';
  
  /* Opcionales: configuración de parámetros extra */
  
